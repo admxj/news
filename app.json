@@ -1,0 +1,9 @@
+{
+    "pages": [
+      "pages/welcome/welcome"
+    ],
+    "window": {
+      "navigationBarBackgroundColor": "#B3D5DB",
+      "navigationBarTitleText": "蔡妈看看"
+    }
+}

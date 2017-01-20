@@ -1,0 +1,8 @@
+<view class="container">
+    <image class="ico" src="/images/ico.jpg"></image>
+    <text class="user-name">Hello, 蔡妈</text>
+
+    <view class="comtainer-moto">
+        <text class="moto">开启小程序之旅</text>
+    </view>
+</view>
