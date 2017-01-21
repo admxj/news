@@ -15,7 +15,7 @@ page{
 }
 .user-name{
     margin-top: 200rpx;
-    font-family: Microsoft YaHei;
+    
     font-size: 32rpx;
     font-weight: bold;
 }
@@ -26,7 +26,7 @@ page{
     border-radius: 10rpx;
 }
 .moto{
-    font-family: Microsoft YaHei;
+    
     font-size: 30rpx;
     font-weight: bold;
     color: #507285;
