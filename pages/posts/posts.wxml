@@ -10,34 +10,21 @@
       <image src="/images/vr.png"></image>
     </swiper-item>
   </swiper>
-  <view class="container">
-    <view class="post-author-data">
-      <image class="post-author" src="/images/avatar/1.png"></image>
-      <text class="post-data">Sep 18 2016</text>
+  <block wx:for="{{postlist}}" wx:for-item="item">
+    <view class="container">
+      <view class="post-author-data">
+        <image class="post-author" src="{{item.avatar}}"></image>
+        <text class="post-data">{{item.date}}</text>
+      </view>
+      <text class="post-title">{{item.title}}</text>
+      <image class="post-image" src="{{item.imgSrc}}"></image>
+      <text class="post-content">{{item.content}}</text>
+      <view class="post-like">
+        <image class="post-like-image" src="/images/icon/chat.png"></image>
+        <text class="post-like-font">{{item.connection}}</text>
+        <image class="post-like-image" src="/images/icon/view.png"></image>
+        <text class="post-like-font">{{item.reading}}</text>
+      </view>
     </view>
-    <text class="post-title">哈哈</text>
-    <image class="post-image" src="/images/post/crab.png"></image>
-    <text class="post-content">文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容</text>
-    <view class="post-like">
-      <image class="post-like-image" src="/images/icon/chat.png"></image>
-      <text class="post-like-font">96</text>
-      <image class="post-like-image" src="/images/icon/view.png"></image>
-      <text class="post-like-font">112</text>
-    </view>
-  </view>
-  <view class="container">
-    <view class="post-author-data">
-      <image class="post-author" src="/images/avatar/1.png"></image>
-      <text class="post-data">Sep 18 2016</text>
-    </view>
-    <text class="post-title">哈哈</text>
-    <image class="post-image" src="/images/post/crab.png"></image>
-    <text class="post-content">文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容</text>
-    <view class="post-like">
-      <image class="post-like-image" src="/images/icon/chat.png"></image>
-      <text class="post-like-font">96</text>
-      <image class="post-like-image" src="/images/icon/view.png"></image>
-      <text class="post-like-font">112</text>
-    </view>
-  </view>
+  </block>
 </view>
