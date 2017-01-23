@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.headimg{
+    width:100%;
+    height: 460rpx;
+}
+.audio{
+    width: 100rpx;
+    height: 100rpx;
+    position: absolute;
+    top:180rpx;
+    left: 50%;
+    margin-left: -50rpx;
+    opacity: 0.6;
+}
+.author-date{
+    flex-direction: row;
+    margin-top: 10rpx;
+    margin-left: 20rpx;
+}
+.avatar{
+    width: 60rpx;
+    height: 60rpx;
+    vertical-align: middle;
+}
+.author{
+    font-size: 30rpx;
+    font-weight: 300;
+    vertical-align: middle;
+    margin-left: 15rpx;
+    color: #666;
+}
+.const-text{
+    font-size: 24rpx;
+    margin-left: 10rpx;
+    color: #999;
+}
+.date{
+    font-size: 30rpx;
+    font-weight: 300;
+    vertical-align: middle;
+    margin-left: 15rpx;
+    color: #666;
+}
+.title{
+    margin-left: 30rpx;
+    font-size: 36rpx;
+    font-weight: 700;
+    margin-top: 15rpx;
+    letter-spacing: 2rpx;
+    color: #4b556c;
+}
+.tool{
+    margin-top: 10rpx;
+}
+
+.tool-img{
+    float: right;
+    vertical-align: middle;
+}
+.tool-img image {
+    width: 90rpx;
+    height: 90rpx;
+    margin-right: 40rpx;
+}
+.img-line{
+    width: 660rpx;
+    height: 2rpx;
+    background-color: #e5e5e5;
+    margin:0 auto;
+    position: relative;
+    top: 44rpx;
+    z-index: -99;
+}
+.detail{
+    font-size: 30rpx;
+    color: #666;
+    margin: 10rpx 30rpx;
+    letter-spacing: 2rpx;
+    line-height:44rpx; 
+}
